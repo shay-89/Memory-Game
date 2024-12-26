@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js" defer></script>
+    <title>Memory Game</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="circle-container">
+            <div class="circle">
+                <div class="colors green" id="green"></div>
+                <div class="colors red" id="red"></div>
+                <div class="colors yellow" id="yellow"></div>
+                <div class="colors blue" id="blue"></div>
+            </div>
+        </div>
+        <div class="btnContainer">
+            <button id="play" onclick="gameKey()">Play</button>
+            <br>
+            <p>Score: <span id="score"></span></p>
+            <br>
+            <!-- <p id="state"></p> -->
+        </div>
+    </div>
+</body>
+
+</html>

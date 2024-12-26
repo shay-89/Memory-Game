@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    height: 100vh;
+    background-color: #1F1F23;
+}
+
+.circle-container {
+    padding-top: 2%;
+    
+}
+.circle {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 21%;
+    justify-content: center;
+    justify-items: center; 
+    align-items: center;
+    place-items: center;
+    gap: 15px;
+    background-color: black;
+    padding: 45px;
+    border-radius: 400px;
+    margin: auto;
+}
+
+.colors {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+/* Top-left, top-right, bottom-right, bottom-left */
+.green {
+    background-color: green;
+    border-radius: 400px 10px 10px 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.red {
+    background-color: red;
+    border-radius: 10px 400px 10px 10px;
+    transition: box-shadow 0.3s ease;
+   
+}
+
+.yellow {
+    background-color: yellow;
+    border-radius: 10px 10px 10px 400px;
+    transition: box-shadow 0.3s ease;
+   
+}
+
+.blue {
+    background-color: blue;
+    border-radius: 10px 10px 400px 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.btnContainer {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;  
+ align-items: center;
+ padding: 2%;
+}
+
+ #play {
+ padding: 1%;
+ font-size: 110%;
+ cursor: pointer;
+}
+
+p {
+    color: white;
+} 
+
+#state {
+    background-color: green;
+    padding: 1%;
+    border-radius: 15px;
+}
