@@ -32,7 +32,7 @@ body {
     width: 200px;
     cursor: pointer;
 }
-/* Top-left, top-right, bottom-right, bottom-left */
+
 .green {
     background-color: green;
     border-radius: 400px 10px 10px 10px;
